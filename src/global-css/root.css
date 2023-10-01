@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+:root {
+    --body-color: #a3764a;
+    --evry-color: #a3764a;
+    --navbar-color: #fff;
+    --navbar-font: 'Inter', sans-serif;
+    --margin-content-center: 0 auto;
+    --navbar-font-color: #a3764a;
+    --navbar-font-weight: 900;
+    --navbar-font-weight-normal: 700;
+    --navbar-font-weight-small: 500;
+    --navbar-font-size-top: 30pt;
+    --navbar-font-size-bottom: 22pt;
+    --flex-center: center;
+    --flex-end: flex-end;
+    --flex-start: flex-start;
+    --flex: flex;
+    --transform: uppercase;
+    --default-width: 100%;
+    --default-height: 100vh;
+    --main-bg: url(../images/background/IMG_0137.JPG);
+    --main-repaat: no-repeat;
+    --none-value: none;
+    --noraml-border-radius: 10px;
+    --flex-between: space-between;
+    --flex-evenly: space-evenly;
+    --flex-around: space-around;
+}
