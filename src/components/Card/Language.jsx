@@ -9,8 +9,8 @@ import { FaBars } from "react-icons/fa";
 function Language() {
   const [btnBars, setBtnBars] = useState(false);
   const barsClick = () => {
-    setBtnBars(prev => !prev);
-    console.log(btnBars)
+    setBtnBars((prev) => !prev);
+    console.log(btnBars);
   };
   return (
     <div>
@@ -38,9 +38,8 @@ function Language() {
         <FaBars className="bars" size={30} />
       </button>
 
-      {
-        btnBars?(
-          <div className="media-lang">
+      {btnBars ? (
+        <div className="media-lang">
           <div className="language-flags">
             <Link style={{ cursor: "pointer" }} to="/uz">
               <div className="language">
@@ -62,9 +61,9 @@ function Language() {
             </Link>
           </div>
         </div>
-        ):""
-      }
-      
+      ) : (
+        ""
+      )}
     </div>
   );
 }
