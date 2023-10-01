@@ -1,381 +1,393 @@
 .feedback {
-    max-width: 750px;
-    padding: 0.43in 0.90in;
-    box-shadow: 0 0 30px -4px black;
-    background-color: var(--navbar-color);
-    border-radius: 44px;
-    transition: 0.3s all;
-    margin: 50px 0;
+  max-width: 750px;
+  padding: 0.43in 0.9in;
+  box-shadow: 0 0 30px -4px black;
+  background-color: var(--navbar-color);
+  border-radius: 44px;
+  transition: 0.3s all;
+  margin: 50px 0;
 }
 
 .feedback .language-flags {
-    display: var(--flex);
-    align-items: var(--flex-center);
-    user-select: var(--none-value);
-    justify-content: var(--flex-between);
+  display: var(--flex);
+  align-items: var(--flex-center);
+  user-select: var(--none-value);
+  justify-content: var(--flex-between);
 }
 
 .feedback .language-flags a:not(:last-child) {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .feedback .language-flags .language {
-    display: var(--flex);
-    align-items: var(--flex-center);
-    box-shadow: 0 0 10px -4px var(--body-color);
-    border-radius: var(--noraml-border-radius);
-    border: 0.5px solid var(--body-color);
+  display: var(--flex);
+  align-items: var(--flex-center);
+  box-shadow: 0 0 10px -4px var(--body-color);
+  border-radius: var(--noraml-border-radius);
+  border: 0.5px solid var(--body-color);
 }
 
 .feedback .language-flags .language img {
-    width: 60px;
-    height: 40px;
-    border-radius: var(--noraml-border-radius);
-    border: 1px solid var(--body-color);
+  width: 60px;
+  height: 40px;
+  border-radius: var(--noraml-border-radius);
+  border: 1px solid var(--body-color);
 }
 
 .feedback .language-flags .language button {
-    background: var(--none-value);
-    font-weight: var(--navbar-font-weight);
-    text-transform: var(--transform);
-    width: 100px;
+  background: var(--none-value);
+  font-weight: var(--navbar-font-weight);
+  text-transform: var(--transform);
+  width: 100px;
 }
 
 .feedback-video-modal {
-    display: var(--flex);
-    align-items: var(--flex-center);
-    justify-content: var(--flex-evenly);
-    margin: 0 20px;
+  display: var(--flex);
+  align-items: var(--flex-center);
+  justify-content: var(--flex-evenly);
+  margin: 0 20px;
 }
 
 .feedback-tutorial {
-    display: var(--flex);
-    align-items: var(--flex-center);
-    margin: 30px 0;
+  display: var(--flex);
+  align-items: var(--flex-center);
+  margin: 30px 0;
 }
 
 .room-number {
-    display: var(--flex);
-    align-items: var(--flex-center);
+  display: var(--flex);
+  align-items: var(--flex-center);
 }
 
 .room-number label {
-    color: var(--body-color);
-    font-weight: var(--navbar-font-weight);
-    font-family: var(--navbar-font);
-    user-select: var(--none-value);
+  color: var(--body-color);
+  font-weight: var(--navbar-font-weight);
+  font-family: var(--navbar-font);
+  user-select: var(--none-value);
 }
 
 .room-number input {
-    margin: 0 10px;
-    width: 80px;
-    border-radius: 15px;
-    box-shadow: 0 0 10px -5px var(--body-color);
-    border: 1.5px solid var(--body-color);
-    height: 40px;
-    font-weight: var(--navbar-font-weight);
-    color: var(--body-color);
-    text-align: center;
+  margin: 0 10px;
+  width: 80px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px -5px var(--body-color);
+  border: 1.5px solid var(--body-color);
+  height: 40px;
+  font-weight: var(--navbar-font-weight);
+  color: var(--body-color);
+  text-align: center;
 }
 
 .room-number input::placeholder {
-    color: var(--body-color);
+  color: var(--body-color);
 }
 
-
 .feedback-tutorial .feedback-video-modal button {
-    border-radius: 15px;
-    box-shadow: 0 0 10px -5px var(--body-color);
-    border: 1.5px solid var(--body-color);
-    background: none;
-    display: var(--flex);
-    align-items: var(--flex-center);
-    width: 230px;
-    justify-content: var(--flex-between);
-    height: 40px;
-    padding: 10px 20px;
-    font-size: 15px;
-    text-transform: var(--transform);
-    font-weight: var(--navbar-font-weight);
-    color: var(--body-color);
-    cursor: pointer;
-    font-style: italic;
+  border-radius: 15px;
+  box-shadow: 0 0 10px -5px var(--body-color);
+  border: 1.5px solid var(--body-color);
+  background: none;
+  display: var(--flex);
+  align-items: var(--flex-center);
+  width: 230px;
+  justify-content: var(--flex-between);
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: var(--transform);
+  font-weight: var(--navbar-font-weight);
+  color: var(--body-color);
+  cursor: pointer;
+  font-style: italic;
 }
 
 .feedback-peoples .feedback-people {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
-.ball section .stars button label input[type=radio] {
-    display: var(--none-value);
+.ball section .stars button label input[type="radio"] {
+  display: var(--none-value);
 }
 
 .ball section .stars button {
-    background: var(--none-value);
+  background: var(--none-value);
 }
 
 .ball section .stars {
-    margin: 0 60px;
+  margin: 0 60px;
 }
 
 .ball section .stars .star {
-    margin: 0 2px;
+  margin: 0 2px;
 }
 
 .feedback-people .ball-name {
-    font-weight: var(--navbar-font-weight-small);
-    text-transform: var(--transform);
-    font-family: var(--navbar-font);
-    width: 200px;
+  font-weight: var(--navbar-font-weight-small);
+  text-transform: var(--transform);
+  font-family: var(--navbar-font);
+  width: 200px;
 }
 
 .feedback-people {
-    display: var(--flex);
-    align-items: var(--flex-center);
+  display: var(--flex);
+  align-items: var(--flex-center);
 }
 
 .feedback .comment {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 .feedback .comment textarea {
-    border: 2px solid var(--body-color);
-    /* border-radius: 5px; */
-    padding: 10px;
-    outline: var(--none-value);
-    resize: none;
+  border: 2px solid var(--body-color);
+  /* border-radius: 5px; */
+  padding: 10px;
+  outline: var(--none-value);
+  resize: none;
 }
 
 .feedback .comment .camera-plus {
-    border-radius: 15px;
-    box-shadow: 0 0 10px -5px var(--body-color);
-    border: 1.5px solid var(--body-color);
-    background: none;
-    display: var(--flex);
-    align-items: var(--flex-center);
-    width: 260px;
-    justify-content: var(--flex-between);
-    height: 40px;
-    padding: 10px 20px;
-    font-size: 15px;
-    text-transform: var(--transform);
-    font-weight: var(--navbar-font-weight);
-    color: var(--body-color);
-    cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 0 10px -5px var(--body-color);
+  border: 1.5px solid var(--body-color);
+  background: none;
+  display: var(--flex);
+  align-items: var(--flex-center);
+  width: 260px;
+  justify-content: var(--flex-between);
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: var(--transform);
+  font-weight: var(--navbar-font-weight);
+  color: var(--body-color);
+  cursor: pointer;
 }
 
 .feedback .comment .camera-plus {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .feedback .comment .camera-plus label {
-    display: var(--flex);
-    align-items: var(--flex-center);
-    justify-content: var(--flex-center);
-    cursor: pointer;
-    width: var(--default-width);
+  display: var(--flex);
+  align-items: var(--flex-center);
+  justify-content: var(--flex-center);
+  cursor: pointer;
+  width: var(--default-width);
 }
 
 .feedback .comment .camera-plus label p {
-    margin: 0 10px;
-    color: black;
-    font-family: var(--navbar-font);
+  margin: 0 10px;
+  color: black;
+  font-family: var(--navbar-font);
 }
 
-.feedback .comment .camera-plus input[type=file] {
-    display: var(--none-value);
+.feedback .comment .camera-plus input[type="file"] {
+  display: var(--none-value);
 }
 
 .feedback .buttons {
-    display: var(--flex);
-    justify-content: var(--flex-end);
+  display: var(--flex);
+  justify-content: var(--flex-end);
 }
 
 .feedback .buttons button {
-    border-radius: 15px;
-    box-shadow: 0 0 20px -5px var(--body-color);
-    background: var(--body-color);
-    width: 230px;
-    height: 50px;
-    padding: 10px 20px;
-    font-size: 20px;
-    text-transform: var(--transform);
-    font-weight: var(--navbar-font-weight);
-    color: var(--body-color);
-    cursor: pointer;
-    text-align: var(--flex-center);
-    color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 20px -5px var(--body-color);
+  background: var(--body-color);
+  width: 230px;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-transform: var(--transform);
+  font-weight: var(--navbar-font-weight);
+  color: var(--body-color);
+  cursor: pointer;
+  text-align: var(--flex-center);
+  color: white;
 }
 
 .feedback hr {
-    margin: 30px 0;
-    border: 0.5px solid #a3764a96;
-    height: 0.5px;
-    width: 100%;
+  margin: 30px 0;
+  border: 0.5px solid #a3764a96;
+  height: 0.5px;
+  width: 100%;
 }
 
 @media screen and (max-width: 750px) {
-
-    /* .container .feedback-menu {
+  /* .container .feedback-menu {
         height: 100vh;
     } */
-    .feedback {
-        max-width: 600px;
-        padding: 0.33in 0.6in;
-    }
+  .feedback {
+    max-width: 600px;
+    padding: 0.33in 0.6in;
+  }
 
-    .feedback .language-flags .language button {
-        width: 80px;
-        font-size: 13px;
-    }
+  .feedback .language-flags .language button {
+    width: 80px;
+    font-size: 13px;
+  }
 
-    .feedback .language-flags .language img {
-        width: 60px;
-    }
+  .feedback .language-flags .language img {
+    width: 60px;
+  }
 
-    .feedback .buttons button {
-        border-radius: 12px;
-        width: 220px;
-        height: 45px;
-        font-size: 17px;
-    }
+  .feedback .buttons button {
+    border-radius: 12px;
+    width: 220px;
+    height: 45px;
+    font-size: 17px;
+  }
 
-    .feedback .comment textarea {
-        width: 25rem;
-    }
+  .feedback .comment textarea {
+    width: 25rem;
+  }
 
-    .feedback hr {
-        margin: 15px 0;
-    }
+  .feedback hr {
+    margin: 15px 0;
+  }
 
-    .feedback-tutorial .feedback-video-modal button {
-        border-radius: 12px;
-        width: 210px;
-        font-size: 13px;
-    }
+  .feedback-tutorial .feedback-video-modal button {
+    border-radius: 12px;
+    width: 210px;
+    font-size: 13px;
+  }
 
-    .feedback .comment .camera-plus {
-        border-radius: 10px;
-        width: 220px;
-        height: 40px;
-        padding: 10px 5px;
-        font-size: 10px;
-    }
+  .feedback .comment .camera-plus {
+    border-radius: 10px;
+    width: 220px;
+    height: 40px;
+    padding: 10px 5px;
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .feedback {
-        max-width: 535px;
-        padding: 0.2in 0.3in;
-    }
+  .feedback {
+    max-width: 535px;
+    padding: 0.2in 0.3in;
+  }
 
-    .feedback-people .ball-name {
-        width: 150px;
-        font-size: 15px;
-    }
+  .feedback-people .ball-name {
+    width: 150px;
+    font-size: 15px;
+  }
 
-    .feedback-peoples .feedback-people {
-        margin: 5px 0;
-    }
+  .feedback-peoples .feedback-people {
+    margin: 5px 0;
+  }
 
-    .feedback .comment textarea {
-        width: 22rem;
-    }
+  .feedback .comment textarea {
+    width: 22rem;
+  }
 
-    .feedback .comment {
-        margin: 15px 0;
-    }
+  .feedback .comment {
+    margin: 15px 0;
+  }
 
-    .feedback .buttons button {
-        width: 200px;
-        height: 42px;
-        font-size: 14px;
-    }
+  .feedback .buttons button {
+    width: 200px;
+    height: 42px;
+    font-size: 14px;
+  }
 
-    .room-number input {
-        width: 75px;
-        border-radius: 10px;
-        height: 35px;
-    }
+  .room-number input {
+    width: 75px;
+    border-radius: 10px;
+    height: 35px;
+  }
 }
 
 .feedback .languages-bars .bars-button {
-    background: none;
-    display: var(--flex);
-    justify-content: var(--flex-center);
-    width: var(--default-width);
-    cursor: pointer;
-    display: none;
+  background: none;
+  display: var(--flex);
+  justify-content: var(--flex-center);
+  width: var(--default-width);
+  cursor: pointer;
+  display: none;
 }
 
 .feedback .languages-bars .bars-button:hover {
-    animation-name: rotate;
-    animation-timing-function: ease-in-out;
-    animation-duration: 2s;
+  animation-name: rotate;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
 }
 
 @keyframes rotate {
-    0% {
-        transform: rotate(0);
-        color: var(--body-color);
-    }
+  0% {
+    transform: rotate(0);
+    color: var(--body-color);
+  }
 
-    50% {
-        transform: rotate(600deg);
-        scale: 1.2;
-    }
+  50% {
+    transform: rotate(600deg);
+    scale: 1.2;
+  }
+}
+
+.media-lang .language-flags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 530px) {
-    .feedback .language-flags {
-        display: none;
-    }
+  .feedback .display-none-class {
+    display: none;
+  }
+  .media-lang .language-flags a {
+    margin: 5px;
+  }
+  .media-lang .language-flags a:not(:last-child) {
+    margin: 5px;
+  }
 
-    .feedback {
-        max-width: 450px;
-        padding: 0.2in;
-    }
+  .feedback {
+    max-width: 450px;
+    padding: 0.2in;
+  }
 
-    .feedback-people .ball-name {
-        width: 150px;
-        font-size: 15px;
-    }
+  .feedback-people .ball-name {
+    width: 150px;
+    font-size: 15px;
+  }
 
-    .feedback-peoples .feedback-people {
-        margin: 5px 0;
-    }
+  .feedback-peoples .feedback-people {
+    margin: 5px 0;
+    justify-content: space-between;
+  }
 
-    .feedback .comment textarea {
-        width: 22rem;
-    }
+  .feedback .comment textarea {
+    width: 22rem;
+  }
 
-    .feedback .comment {
-        margin: 15px 0;
-    }
+  .feedback .comment {
+    margin: 15px 0;
+  }
 
-    .feedback .buttons button {
-        width: 200px;
-        height: 42px;
-        font-size: 14px;
-    }
+  .feedback .buttons button {
+    width: 200px;
+    height: 42px;
+    font-size: 14px;
+  }
 
-    .room-number input {
-        width: 75px;
-        border-radius: 10px;
-        height: 35px;
-    }
+  .room-number input {
+    width: 75px;
+    border-radius: 10px;
+    height: 35px;
+  }
 
-    .feedback-people .ball-name {
-        width: 155px;
-    }
+  .feedback-people .ball-name {
+    width: 155px;
+  }
 
-    .ball section .stars button {
-        background: var(--none-value);
-        display: flex;
-        align-items: center;
-    }
+  .ball section .stars button {
+    background: var(--none-value);
+    display: flex;
+    align-items: center;
+  }
 
-    .bars-button {
-        display: block !important;
-    }
+  .bars-button {
+    display: block !important;
+  }
 }
