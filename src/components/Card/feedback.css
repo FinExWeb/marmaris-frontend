@@ -214,9 +214,6 @@
 }
 
 @media screen and (max-width: 750px) {
-  /* .container .feedback-menu {
-        height: 100vh;
-    } */
   .feedback {
     max-width: 600px;
     padding: 0.33in 0.6in;
@@ -267,15 +264,6 @@
     padding: 0.2in 0.3in;
   }
 
-  .feedback-people .ball-name {
-    width: 150px;
-    font-size: 15px;
-  }
-
-  .feedback-peoples .feedback-people {
-    margin: 5px 0;
-  }
-
   .feedback .comment textarea {
     width: 22rem;
   }
@@ -295,21 +283,6 @@
     border-radius: 10px;
     height: 35px;
   }
-}
-
-.feedback .languages-bars .bars-button {
-  background: none;
-  display: var(--flex);
-  justify-content: var(--flex-center);
-  width: var(--default-width);
-  cursor: pointer;
-  display: none;
-}
-
-.feedback .languages-bars .bars-button:hover {
-  animation-name: rotate;
-  animation-timing-function: ease-in-out;
-  animation-duration: 2s;
 }
 
 @keyframes rotate {
@@ -332,8 +305,22 @@
 }
 
 @media screen and (max-width: 530px) {
-  .feedback .display-none-class {
-    display: none;
+  .feedback .language-flags .language button {
+    width: 50px;
+  }
+  .feedback .language-flags .language button {
+    font-size: 10px;
+  }
+  .feedback .language-flags .language img {
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .feedback .language-flags a {
+    margin: 2.5px;
+  }
+  .feedback .language-flags a:not(:last-child) {
+    margin: 0;
   }
   .media-lang .language-flags a {
     margin: 5px;
@@ -345,16 +332,6 @@
   .feedback {
     max-width: 450px;
     padding: 0.2in;
-  }
-
-  .feedback-people .ball-name {
-    width: 150px;
-    font-size: 15px;
-  }
-
-  .feedback-peoples .feedback-people {
-    margin: 5px 0;
-    justify-content: space-between;
   }
 
   .feedback .comment textarea {
@@ -377,17 +354,9 @@
     height: 35px;
   }
 
-  .feedback-people .ball-name {
-    width: 155px;
-  }
-
   .ball section .stars button {
     background: var(--none-value);
     display: flex;
     align-items: center;
-  }
-
-  .bars-button {
-    display: block !important;
   }
 }

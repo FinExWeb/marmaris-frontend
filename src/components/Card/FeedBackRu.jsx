@@ -46,9 +46,6 @@ function FeedBackRu() {
     <div className="feedback">
       <section className="languages-bars">
         <Language />
-        <button className="bars-button">
-          <FaBars className="bars" size={30} />
-        </button>
       </section>
       <hr />
       <div className="feedback-tutorial">

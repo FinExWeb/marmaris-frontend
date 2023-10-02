@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   transition: 0.3s all;
+  user-zoom: fixed;
 }
 
 button {
   outline: none;
   border: none;
+  user-zoom: fixed;
 }
 
 input {

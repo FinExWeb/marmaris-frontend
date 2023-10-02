@@ -12,20 +12,23 @@
     width: 165px;
   }
 }
-
+.room-number label {
+  text-transform: uppercase;
+}
 @media screen and (max-width: 390px) {
-  .feedback-tutorial { 
-    flex-wrap: wrap;
+  .feedback-video-modal {
+    margin: 0 5px;
+  }
+  .feedback-tutorial .feedback-video-modal button {
+    font-size: 10px;
+    letter-spacing: -0.2px;
+    width: 140px;
+  }
+  .room-number label {
+    font-size: 12px;
   }
   .navbar .navbar-content h1 {
     font-size: 25px;
-  }
-  .feedback-video-modal {
-    display: var(--flex);
-    align-items: var(--flex-center);
-    justify-content: flex-end;
-    margin: 15px 20px;
-    width: 100%;
   }
   .feedback {
     max-width: 300px;
@@ -35,33 +38,21 @@
   .feedback .comment textarea {
     width: 16rem;
   }
-  .feedback-peoples .feedback-people {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 15px 0;
-  }
   .feedback-people .ball-name {
-    margin: 10px 0;
+    font-size: 13px;
+    width: 150px;
+  }
+  .star {
+    width: 20px;
+    height: 20px;
+  }
+  .feedback .language-flags .language button {
+    position: relative;
+    top: 1px;
   }
 }
 
 @media screen and (max-width: 440px) {
-  .feedback-tutorial { 
-    flex-wrap: wrap;
-  }
-  .navbar .navbar-content h1 {
-    font-size: 25px;
-  }
-  .feedback-video-modal {
-    display: var(--flex);
-    align-items: var(--flex-center);
-    justify-content: flex-end;
-    margin: 15px 20px;
-    width: 100%;
-  }
   .feedback {
     max-width: 400px;
     padding: 0.15in;
@@ -69,16 +60,5 @@
   }
   .feedback .comment textarea {
     width: 16rem;
-  }
-  .feedback-peoples .feedback-people {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 15px 0;
-  }
-  .feedback-people .ball-name {
-    margin: 10px 0;
   }
 }
